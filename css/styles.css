@@ -1317,7 +1317,7 @@ img {
   margin-bottom: 24px;
 }
 
-.modal-check-input:checked + .modal__check-text .modal__check-box {
+.modal-check-input:checked + .modal-check-text .modal-check-box {
   background-color: var(--color-ocean);
   border: none;
   fill: var(--color-cloud);
