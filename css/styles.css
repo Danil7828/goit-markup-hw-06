@@ -793,8 +793,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
+  display:block;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-logo-white {
@@ -971,7 +972,9 @@ img {
 }
 
 /* ---------- Page Portfolio ---------- */
-
+.app{
+  padding: 96px 0;
+}
 .gallery {
   padding-top: 48px;
   padding-bottom: 48px;
@@ -1062,7 +1065,6 @@ img {
 
 @media screen and (max-width: 767px) {
   .gallery-item:not(:last-child) {
-    margin-bottom: 48px;
   }
 }
 
@@ -1107,8 +1109,16 @@ img {
 }
 
 .work-title {
-   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+  padding-top: 96px;
 }
+
 .gallery-overley-text {
   position: absolute;
   top: 0;
